@@ -1,0 +1,519 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.5cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{titlepic}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{lscape}
+
+% \title{Equity valuation assignment, Scales Corporation}
+% \author{Johnny Lowis, Benjamin Davenport, Tom Morris}
+
+\title{Equity Valuation Assignment \\ FINC308 \\ Scales Corporation}
+\author{Johnny Lowis, Benjamin Davenport, Tom Morris}
+\titlepic{\includegraphics[width=.5\textwidth]{scales.png}}
+
+\begin{document}
+\maketitle
+\newpage
+
+\tableofcontents
+\newpage
+
+\section{Executive Summary - \textit{Investment View}}
+Scales Corporation is a broad agribusiness portfolio with geographically dispersed businesses that serves numerous markets and clients. Scales is familiar with the distinctive and unique parts of the primary industry in New Zealand. \\
+
+Scales engages in producing and exporting agribusiness products in New Zealand. Scales Corporation was founded in 1987. Scales Corporation's headquarters is located in Christchurch, Southland Region, NZ 8013. Scales Corporation's Managing Director, Andy Borland, currently has an approval rating of 70\%. Scales Corporation has an estimated 700 employees and an estimated annual revenue of 19.7M. Scales corporation is split into three divisions which are Horticulture, Logistics and Food Ingredients. \\
+
+With the use of Pro-forma Income Statements and Balance Sheets for the years forecasted 2022 – 2026, our group were able to apply various valuation methods to get a better picture of the true value Scales Corporation yields. The valuation methods our group ultimately decided on were the Free Cash Flow method, Adjusted Present Value method, and the Price Multiples method. On average, we found that Scales Corporation’s share price had a fair value of \$2.22. This figure leads us to conclude that Scales Corporation is overvalued by \$2.76, thus we recommend a strong SELL of any shares owned. Though the consensus reached is only an approximation, it does, however, give us at the very least a decent insight into the true value that the forecasted figures have provided us. 
+
+\section{Introduction}
+In this report we have gone through each valuation method for the share price of Scales Corporation, showing steps in how we arrived at our calculated answers. Each method makes use of separate valuation ideas which means we can have more confidence when generating a combined recommendation. Included in this process, we have outlined assumptions made in order to be able to have some confidence in numbers generated. These assumptions are necessary and clearly stated in order to negate any confusion and improve clarity.\\
+
+We have also gone through how Scales Corporation’s economic environment currently sits and what relation any factors play in valuations. The Porter’s Five Forces framework is a very useful tool in order to help us get a really good idea of what is going on with the business and any possible issues or opportunities that may arise. This framework also assists in forecasting future growth of the business and supports generating number values for future rates.\\
+
+Furthermore, we have created sensitivity analysis to help gain a greater understanding of which factor changes would have significant impact on price variation. This is important as it gives stakeholders an easy way to understand any possible deviations. It also points toward which factors would have a negative impact towards the company.\\
+
+Finally, we finish with our conclusion and judgement rendered from an overall view of our analysis. This conclusion wraps up all of our findings and gives a clear direction in which we believe shareholders should take action in. 
+
+\newpage
+\section{Scales Corporation Economic Environment – Porters 5 Forces}
+\subsection{Buyer Power}
+Scales Corporation experiences differing buyer power for each of the divisions in which they operate. \\
+
+The horticulture division likely experiences the most variance in buyer demand throughout the year as certain countries of export come into and out of apple seasons. They also have very tight constraints on having the ability to harvest and pick their fresh product at optimum time windows. This impacts on volumes and quality and their ability to market their fresh produce globally. Therefore, buyer demand would be seen as fairly elastic in regard to the time period for goods received. \\
+
+Following the global increase in pet ownership, attributed to the COVID-19 pandemic \cite{petfood}, the Pet Food Ingredients sector experienced rapid growth in the 2020-2021 period. This is likely to be temporary, but has resulted in a larger global consumer demand for their product, which is likely to be sustained for at least the next 5 years, taking a conservative estimate to the average pet lifetime. 
+
+\subsection{Supplier Power}
+As scales corporation is primarily a supplier of goods and services the only supplier issues would likely arise from maintenance or upgrading.
+The ability to supply their goods through the horticulture division relies heavily on the availability of seasonal labour.\\
+
+Scales is able to utilize their divisions together as the logistics division plays a key role in the supply chain of the horticulture businesses.\\
+
+Scales have noted that from the end of 2023 they will no longer have an exclusive ongoing relationship with their existing supplier.
+
+\subsection{Competitive Rivalry}
+Scales overall management team looks at all avenues in which they may gain a competitive edge over rival firms. In current times this is topically through digital infrastructure and sustainability policies.\\
+
+Scales horticulture division has recently maintained a focus on brand positioning, design and digital infrastructure in key growing markets of the middle east and Asia. 
+
+\subsection{Threat of Substitutes}
+Scales faces several forms of competition, due to being a global exporter, to regions such as North America, Asia and Europe. The chief forms of rivalry on an international stage is from competitor brands locally, due to having longer standing in the area comparatively as well as less operational costs due to less distance traveled by their products.\\
+
+Scales has been combating this in Asia through their ``Mr. Apple" branding, the use of an app to garner social media presence and marketing. They have also been focusing on advertising the New-Zealand origin of their product as a selling point.
+
+\subsection{Threat of New Entrants }
+On the global stage there is a low overall threat of new entrants. This is due to the large capital investment required, as well as supply chain constraints, where large already established and successful firms are in strong competition over access to logistics and product shipping methods.\\
+
+Locally in New-Zealand, there is a large shortage of agribusiness labour supply. This, as well as the financial strain imposed by the COVID-19 pandemic, makes it unlikely for new firms to easily enter the sectors currently occupied by Scales at a domestic level.
+
+\newpage
+\begin{landscape}
+\section{Adjusted Present Value Valuation}
+\subsection{APV outlay}
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[h]
+\begin{tabular}{|l|l|l|l|l|l|l|l|}
+\hline
+Year ending & {\color[HTML]{FF0000} 2021} & {\color[HTML]{FF0000} 2022} & {\color[HTML]{FF0000} 2023} & {\color[HTML]{FF0000} 2024} & {\color[HTML]{FF0000} 2025} & {\color[HTML]{FF0000} 2026} & Total                                   \\ \hline
+CapEX       & \$(16,324,000.00)           &                             &                             &                             &                             &                             &                                         \\ \hline
+PV UCF      &                             & \$49,305,264.00             & \$47,143,938.00             & \$45,077,334.00             & \$43,101,361.00             & \$41,211,987.00             & \$225,839,904.00                        \\ \hline
+PV Dep      &                             & \$5,706,417.00              & \$6,105,370.00              & \$6,366,220.00              & \$6,638,218.00              & \$6,921,835.00              & \$31,738,060.00                         \\ \hline
+PV Interest &                             & \$478,087.00                & \$457,063.00                & \$436,962.00                & \$417,764.00                & \$399,375.00                & \$2,189,251.00                          \\ \hline
+Total       & \$(16,324,000.00)           & \$55,489,768.00             & \$53,706,371.00             & \$51,880,516.00             & \$50,157,343.00             & \$48,533,197.00             & {\color[HTML]{FF0000} \$259,767,215.00} \\ \hline
+\end{tabular}
+\caption{Projected variables used in APV calculation.}
+\label{tab:APV_calc}
+\end{table}
+
+Table setting \ref{tab:APV_calc} is defined as:
+\begin{equation*}
+\begin{split}
+\textbf{APV} &= \textbf{CapEx} + \textbf{PV(Unlevered Cash Flows)} + \textbf{PV(Depreciation tax shield}
+                + \textbf{Interest tax shield}
+\end{split}
+\end{equation*}
+
+\begin{align*}
+\textbf{Unlevered ROE (R Zero) } &= 0.095         &\textbf{Cost of Debt (Rd) } &= \frac{\textbf{Interest Payments}}{\textbf{Total Debt}} \\
+\textbf{NZ Corporate tax } &= 0.28                &             &= \frac{1,786,000}{38,429,000} \\
+\textbf{RF Rate} &= 0.0041                        &             &= 0.046
+\end{align*}
+
+\begin{align*}
+\textbf{PV(UCF)}_{t1-5} = \frac{\textbf{EBITDA}\times (1-t_c)}{(1+r_0)^t} \\ &
+\textbf{PV(Depreciation tax shield)}_{t1-5} = \frac{\textbf{Dep}\times t_c}{(1+r_f)^t} 
+\end{align*}
+
+\begin{align*}
+\textbf{PV(Interest tax shield )}_{t1-5} = \frac{\textbf{Interest expense}\times t_c}{(1+r_d)^t} \\&
+\textbf{Initial outlay(CapEx)} = -16,324,000
+\end{align*}
+
+\end{landscape}
+\subsection{APV Results}
+
+\begin{equation*}
+\textbf{Adjusted Present Value of Scales Corporation} = \$259,767,215 
+\end{equation*}
+
+\begin{equation*}
+\textbf{Current shares outstanding} = 142,394,837
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+\textbf{Fair value per share} &= \frac{\$259,767,215}{142,394,837} \\
+                              &= \$1.82
+\end{split}
+\end{equation*}
+
+\subsection{APV Findings}
+
+\begin{itemize}
+    \item The APV method is a measure of a Net Present Value, with the addition of Financing side effects. 
+    \item What we found is that Scales Corporation’s share has a fair value of approximately \$1.82. 
+    \item This would indicate to us that Scales Corporation is overvalued relative to its current market price of \$4.98.  
+    \begin{itemize}
+        \item Our recommendation would be to \textbf{sell} any shares owned of Scales Corporation.
+    \end{itemize}
+    \item The calculations in this valuation are on the back of various assumptions. In the real world, these assumptions will not always hold true: 
+    \begin{itemize}
+        \item Interest expenses and depreciation for example will more than likely not follow a simple pattern that can be used for calculations.
+        \item The rates used are also subject to change significantly over the forecasted period. 
+    \end{itemize}  
+\end{itemize}
+
+\newpage
+\section{Price Multiples Valuation}
+\subsection{Scales Data: Year Ending \textit{31/12/21}}
+\begin{equation*}
+\begin{split}
+\textbf{Price} &= \$5.6 \\
+\textbf{EPS}   &= 0.191 \\
+\textbf{P/E}   &= 29.3193 \\
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+\textbf{ROA} &= \frac{\textbf{Net Profit}}{\textbf{Total Assets}} \\
+             &= \frac{36,950,000}{584,771,000} \\
+             &= 0.0631 \textbf{ or } 6.31\% \\
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+\textbf{ROE} &= \frac{\textbf{Net Profit}}{\textbf{Shareholders Equity}} \\
+             &= 36,950,000 \textbf{ or } 384,392,000 \\
+             &= 0.0961 \textbf{ or } 9.61\% \\
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+\textbf{Market Book Ratio} &= \frac{\textbf{Market Cap}}{\textbf{BVE}}  \\
+                           &=707,610,794.58 \textbf{ or } 390,314,000 \\
+                           &= 1.81 \\
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+\textbf{Tobins Q}  &= \frac{\textbf{MVE} + \textbf{MVD}}{\textbf{TA}}\\
+                   &= 707,610,794.58 + \frac{36,060,000}{584,771,000}\\ 
+                   &= 1.2717 
+\end{split}
+\end{equation*}
+
+Here numbers are in New Zealand dollar values, where the final line of the respective ratio indicates the value of the ratio, unless indicated otherwise.\\
+As Tobins Q is greater than 1 scales corporation has a relatively greater incentive to invest. 
+
+\subsection{Comparable firm decision}  
+As scales is a diversified business, operating divisions in horticulture, logistics and petfood it is difficult to find a comparable firm which encompasses similar variety, so we have decided to utilize a primarily horticultural exporter. This is due to Scales Corporation receiving the majority of their profits from their horticultural and adjacent operations. By doing this we also assume Scales Corporation will continue similar divisional profit percentages moving forward. Forecasting and economic conditions back up this projection.\\
+
+Therefore, we have chosen Seeka as a suitable comparable firm. Seeka is similar to Scales in the way they operate primarily in the exportation of horticultural goods from New Zealand and Australia. This is advantageous for comparison as both would likely experience similar positive or negative impacts to production over time due to operating in the same sector. They also similarly largely export their fruits to Asia which also helps for comparison. Scales Corporation and Seeka both had extensive growth in revenues compared with the 2020 financial year (39\% and 23\% respectively). Both companies also have relatively similar total asset levels (\$584,771,000 for Scales Corporation and \$482,269,000 for Seeka).
+\newline
+We will also be using the price-earnings ratio as our comparative valuation indicator. 
+
+\subsection{Seeka Data: Year Ending \textit{31/12/21}} 
+
+\begin{equation*}
+\begin{split}
+\textbf{Price} &= \$5.25\\
+\textbf{EPS}   &= 0.43\\
+\textbf{P/E}   &= 12.2093\\
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+\textbf{ROA} &= \frac{14,860,000}{482,269,000} \\
+             &= 0.0308 \textbf{ or } 3.08\% \\
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+\textbf{ROE} &= \frac{14,860,000}{246,491,000} \\
+             &= 0.0603 \textbf{ or } 6.03\% \\
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+\textbf{Market Book Ratio}  &=\frac{210,924,840}{246,491,000} \\
+                            &= 0.8557 \\
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+\textbf{Tobins Q}  &= \frac{210,924,840 + 113,003,000}{482,269,000}\\
+                   &= 0.6716 \\
+\end{split}
+\end{equation*}
+
+Again, numbers are in New Zealand dollar values, where the final line of the respective ratio indicates the value of the ratio, unless indicated otherwise.\\
+From the ratio analysis above, we can conclude that Seeka is less likely to experience an incentive for investment.  
+
+\subsection{Scales Share Valuation: Comparable Firm Multiple Method} 
+
+We assume Scales earnings per share increases at the sustainable growth rate we have been using for other valuation methods of 4.7\%. \\
+Therefore EPS for year end 31/12/22 are assumed to equal, such that: 
+\begin{equation*}
+\begin{split}
+\$0.191 \times (1 + 4.7\%) = \$0.199 \\
+\end{split}
+\end{equation*}
+
+Hence we can say:
+\begin{equation*}
+\begin{split}
+\textbf{P} &= \textbf{EPS} \times \textbf{Comparable Firm Ratio} \\ 
+           &= \$0.199 \times 12.2093 \\
+           &= \$2.4415 \\
+\end{split}
+\end{equation*}
+
+\subsection{Consideration Factors for Multiples Valuation} 
+
+Caveats of using the Valuation through multiples are the differences between firms' growth options, leverage and risk. As it is very difficult to find a comparable firm in the same market at a similar level and with similar opportunities, all of these risks contribute to a different price than one apparent. In our case the main factor that affects price is that we’ve used a firm which isn’t comparable to all the sectors Scales Corporation operates in. We decided it would be best and most relevant to use a business which operated in Scales most prominent sector which is Horticulture. \\
+
+Advantages to this method involve using real numbers for earnings and prices rather than computed numbers. Also, the fact the multiple method does not use long term numbers and rates also decreases the range of error for calculations. This is helpful and gives more confidence in numbers produced when used correctly.  
+
+
+\newpage
+\section{Discounted Cash Flow Valuation}
+\subsection{Assumptions: Revenue drivers}
+Scales Corporation has the following operating segments:
+\begin{itemize}
+    \item \textbf{Food Ingredients}: processing and marketing of food ingredients such as pet food ingredients and juice concentrate.
+    \item \textbf{Horticulture}: orchards, fruit packing and marketing.
+    \item \textbf{Logistics}:  logistics services.
+\end{itemize}
+
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{exports.png}
+    \caption{Summary of exports.}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{segments.png}
+    \caption{Summary of revenue segments.}
+  \end{minipage}
+\end{figure}
+
+\noindent
+From the annual report \cite{2021annual_report}, we generated Figure 2. Here, we see that in 2021, 47\% of the firm's total segment revenue came from horticulture and 42\% of the firm's total segment revenue came from food ingredients. Logistics comprised 10\% of the firm's revenue and the final 1\% came from its other operating segments. \\
+
+\noindent
+The primary revenue drivers for horticulture is sale of agricultural produce, and for food ingredients it is the sale of pet food ingredients. Specifically, in the statement of cash flows, this is denoted as ``Receipts from customers". However, since the revenue from food ingredients has increased significantly, from 36\% of revenue in 2020 to 42\% in 2021, receipts from customers has been broken down into ``Receipts from agriculture" and ``Receipts from pet food ingredients" respectively. This is in light of the diversified strategy proposed in the 2021 operating summary presentation \cite{2021operating_summary}. This was primarily attributed to a rise of 8.2\% in global petfood production \cite{petfood}, attributed to a rise in pet ownership due to the COVID-19 pandemic. To more accurately reflect the diversification as well as new growth in the pet food sector, the 2021 proportions will be used to forecast future cash flows, with agricultural profits being projected at the computed WACC, due to agricultural market conditions not changing significantly in recent times, whereas a decreasing growth rate for pet food, from 8.2\% in the 2020-2021 period to the WACC of 4.7\% in the 2025-2026 period for the 5 year forecast is used. \\
+
+\newpage
+\subsection{Exports, exchange rates.}
+\noindent
+The company is primarily export based, evident in Figure 1 as New Zealand only makes up 18.9\% of the company's revenue (p54 \cite{2021annual_report}). The primary revenue source is from exports to North America, comprising 43.6\% of revenue.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.7\linewidth]{nzd_usd_5year.png}
+    \caption{NZD to USD 5 year chart.}
+\end{figure}
+
+In Figure 3, the NZD is currently at its weakest exchange rate to the USD in the past 5 years. This is certainly a constraint on the profit projections for the future growth, but since currency risk is highly volatile, this is an assumption that is being factored into the revenue projections, since all values in financial statements are in NZD, hence subject to prevailing current conversion rates. These are taken by Scales as current market conversion rates for the relevant transactions, at the time of receiving funds.
+
+
+\subsection{Inflation}
+\begin{table}[h]
+\centering
+\caption{Reserve Bank of NZ Inflation figures}
+\label{tab:rbnz_inflation}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|lllll|ll|}
+\hline
+\multicolumn{5}{|l|}{Previous years:}                                                                                                   & \multicolumn{2}{l|}{Quarterly}           \\ \hline
+\multicolumn{1}{|l|}{}       & \multicolumn{1}{l|}{Sep 2020} & \multicolumn{1}{l|}{Sep 2021} & \multicolumn{1}{l|}{Dec 2021} & Mar 2021 & \multicolumn{1}{l|}{Jun 2022} & Sep 2022 \\ \hline
+\multicolumn{1}{|l|}{Median} & \multicolumn{1}{l|}{1.7}      & \multicolumn{1}{l|}{3.0}      & \multicolumn{1}{l|}{3.0}      & 5.9      & \multicolumn{1}{l|}{7.0}      & 7.0      \\ \hline
+\multicolumn{1}{|l|}{Mean}   & \multicolumn{1}{l|}{2.2}      & \multicolumn{1}{l|}{3.1}      & \multicolumn{1}{l|}{3.7}      & 6.5      & \multicolumn{1}{l|}{8.5}      & 7.6      \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+Currently there are significant concerns about inflation both in the US and in NZ. The Reserve bank has put a 7\% current (Sept 2022) quarter inflation figure \cite{nzinflation}, yet only has a median expected rate of 2.5\% in the coming 5 years, shown in Table 1. Since even the reserve bank figures are speculative, this is a large assumption and source of error in making the forward projection for the model. For the purposes of the cash flow projection, this is assumed to be incorporated in the growth rates used. That is to say, the growth rates in 3.1 are assumed to be inflation-adjusted.
+
+\newpage
+\subsection{Intermittent growth rates.}
+Currently the following growth rates have been chosen for the respective sectors:
+
+\begin{table}[h]
+\centering
+\caption{Annual inflation inclusive growth rates used for FCF projection.}
+\label{tab:currencies}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+                                   & 2021  & 2022    & 2023   & 2024    & 2025  \\ \hline
+Receipts from agriculture          & 4.7\% & 4.7\%   & 4.7\%  & 4.7\%   & 4.7\% \\ \hline
+Receipts from pet food ingredients & 8.2\% & 7.325\% & 6.45\% & 5.575\% & 4.7\% \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+The agriculture growth rate was chosen to be kept constant, since Scales made no mention to large investments or adjustments to this sector. The growth of the pet food sector was chosen to be declining, since the COVID-19 pandemic largely does not have lockdowns or isolation responses globally anymore. This likely means that the large increase in pet food demand will stabilise towards a lower growth rate. This has been assumed to stabilise towards the overall customer receipts growth rate from Scale's corporation.
+
+\subsection{Terminal growth rate.}
+We have chosen to use the 5-year median inflation value as the terminal growth rate,
+since the recent large growth in the pet food ingredients sector is likely a temporary growth result. This
+is due to the COVID-19 pandemic having reduced impacts on household pet numbers over time, which is why we selected the WACC as the final growth value of customer 
+receipts for the year ending 2025. Scales is an already established, long existing company with large structural
+and sector changes being unlikely. Certain circumstances, such as climate change, may prompt Scales to restructure
+to a smaller percentage of agricultural exports. However, the assumption made here is that the terminal value formula
+can be simplified such that:
+
+\begin{equation}
+\begin{split}
+    \textbf{Terminal value} = \frac{\textbf{FCF}_n \times (1+g)}{(\textbf{WACC} - g)} \\
+    \textbf{Terminal value} = \frac{\textbf{FCF}_n \times (1+[\textbf{WACC} + i])}{(\textbf{WACC} - [\textbf{WACC} + i])}\\
+    \textbf{Terminal value} = \textbf{FCF}_n \times (1+i)
+\end{split}
+\end{equation}
+
+Where $i$ is the 5-year median inflation value of 2.5\%.
+
+\newpage
+\subsection{Scales Share Valuation: Free Cash Flow, NPV Method}
+Using a Weighted Average Cost of Capital (WACC) value of 4.7\%, the present value per share was calculated as:
+
+\begin{equation}
+\begin{split}
+\textbf{PV(Unlevered Free Cash Flows)} &= \sum_{n=1}\frac{\textbf{CF}_n}{(1+\textbf{WACC})^n} \\
+                                       &= \$438,272.63
+\end{split}
+\end{equation}
+
+The terminal value was then also discounted back to the present value using the WACC as the discount rate. The share price was then calculated using:
+
+\begin{equation*}
+\begin{split}
+\textbf{Enterprise Value} &= \textbf{PV(Unlevered Cash Flows)} + \textbf{PV(Terminal Value)} \\
+                          &= \$438,272.63 + \$97,317.22 \\
+                          &= \$535,589.85 \\
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+\textbf{Equity Value}     &= \textbf{Enterprise Value} - \textbf{Net debt (2021)} \\
+                          &= \$535,589.85 - \$194,457.00 \\
+                          &= \$341,132.85 \\
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+\textbf{Present value per share} &= \frac{\textbf{Equity Value}}{\textbf{Shares outstanding}} \\
+                                 &= \frac{\$341,132.85}{\textbf{142,394,837}} \\
+                                 &= \$2.40 \\
+\end{split}
+\end{equation*}
+
+This has been done more rigorously in "Sheet3" of the "FINC308 PRO-FORMA STATEMENTS" appendix file.
+
+
+\newpage
+\section{Sensitivity analysis}
+\subsection{The DCF Model}
+
+We varied the terminal growth rate in the range $[1\%, 5\%]$ in steps of $0.5\%$.
+Furthermore, the WACC was varied in the range $[4\%, 13\%]$ in steps of $1\%$.
+We chose to vary the terminal growth rate to reflect intermittent inflation rates, rather than a long term inflation rate, due to the current global inflationary instability.
+The WACC range was selected to reflect the growth range evident in the different sectors of the company.
+
+\begin{table}[h]
+\begin{tabular}{llllllllllll}
+                       &                           &                             &                             &                             &                                                     & \multicolumn{3}{l}{Terminal Growth Rate}                                                &                             &                             &                             \\ \cline{2-12} 
+\multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{}     & \multicolumn{1}{l|}{1\%}    & \multicolumn{1}{l|}{1.50\%} & \multicolumn{1}{l|}{2\%}    & \multicolumn{1}{l|}{2.50\%}                         & \multicolumn{1}{l|}{3\%}    & \multicolumn{1}{l|}{3.50\%} & \multicolumn{1}{l|}{4\%}    & \multicolumn{1}{l|}{4.50\%} & \multicolumn{1}{l|}{5\%}    & \multicolumn{1}{l|}{5.50\%} \\ \cline{2-12} 
+\multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{4\%}  & \multicolumn{1}{l|}{\$2.41} & \multicolumn{1}{l|}{\$2.41} & \multicolumn{1}{l|}{\$2.42} & \multicolumn{1}{l|}{\$2.42}                         & \multicolumn{1}{l|}{\$2.42} & \multicolumn{1}{l|}{\$2.43} & \multicolumn{1}{l|}{\$2.43} & \multicolumn{1}{l|}{\$2.43} & \multicolumn{1}{l|}{\$2.44} & \multicolumn{1}{l|}{\$2.44} \\ \cline{2-12} 
+\multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{5\%}  & \multicolumn{1}{l|}{\$2.38} & \multicolumn{1}{l|}{\$2.38} & \multicolumn{1}{l|}{\$2.38} & \multicolumn{1}{l|}{\cellcolor[HTML]{FFFF00}\$2.39} & \multicolumn{1}{l|}{\$2.39} & \multicolumn{1}{l|}{\$2.39} & \multicolumn{1}{l|}{\$2.40} & \multicolumn{1}{l|}{\$2.40} & \multicolumn{1}{l|}{\$2.40} & \multicolumn{1}{l|}{\$2.41} \\ \cline{2-12} 
+\multicolumn{1}{r|}{W} & \multicolumn{1}{l|}{6\%}  & \multicolumn{1}{l|}{\$2.35} & \multicolumn{1}{l|}{\$2.35} & \multicolumn{1}{l|}{\$2.35} & \multicolumn{1}{l|}{\$2.35}                         & \multicolumn{1}{l|}{\$2.36} & \multicolumn{1}{l|}{\$2.36} & \multicolumn{1}{l|}{\$2.36} & \multicolumn{1}{l|}{\$2.37} & \multicolumn{1}{l|}{\$2.37} & \multicolumn{1}{l|}{\$2.37} \\ \cline{2-12} 
+\multicolumn{1}{r|}{A} & \multicolumn{1}{l|}{7\%}  & \multicolumn{1}{l|}{\$2.32} & \multicolumn{1}{l|}{\$2.32} & \multicolumn{1}{l|}{\$2.32} & \multicolumn{1}{l|}{\$2.33}                         & \multicolumn{1}{l|}{\$2.33} & \multicolumn{1}{l|}{\$2.33} & \multicolumn{1}{l|}{\$2.33} & \multicolumn{1}{l|}{\$2.34} & \multicolumn{1}{l|}{\$2.34} & \multicolumn{1}{l|}{\$2.34} \\ \cline{2-12} 
+\multicolumn{1}{r|}{C} & \multicolumn{1}{l|}{8\%}  & \multicolumn{1}{l|}{\$2.29} & \multicolumn{1}{l|}{\$2.29} & \multicolumn{1}{l|}{\$2.29} & \multicolumn{1}{l|}{\$2.30}                         & \multicolumn{1}{l|}{\$2.30} & \multicolumn{1}{l|}{\$2.30} & \multicolumn{1}{l|}{\$2.31} & \multicolumn{1}{l|}{\$2.31} & \multicolumn{1}{l|}{\$2.31} & \multicolumn{1}{l|}{\$2.31} \\ \cline{2-12} 
+\multicolumn{1}{r|}{C} & \multicolumn{1}{l|}{9\%}  & \multicolumn{1}{l|}{\$2.26} & \multicolumn{1}{l|}{\$2.27} & \multicolumn{1}{l|}{\$2.27} & \multicolumn{1}{l|}{\$2.27}                         & \multicolumn{1}{l|}{\$2.27} & \multicolumn{1}{l|}{\$2.28} & \multicolumn{1}{l|}{\$2.28} & \multicolumn{1}{l|}{\$2.28} & \multicolumn{1}{l|}{\$2.28} & \multicolumn{1}{l|}{\$2.29} \\ \cline{2-12} 
+\multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{10\%} & \multicolumn{1}{l|}{\$2.24} & \multicolumn{1}{l|}{\$2.24} & \multicolumn{1}{l|}{\$2.24} & \multicolumn{1}{l|}{\$2.25}                         & \multicolumn{1}{l|}{\$2.25} & \multicolumn{1}{l|}{\$2.25} & \multicolumn{1}{l|}{\$2.25} & \multicolumn{1}{l|}{\$2.26} & \multicolumn{1}{l|}{\$2.26} & \multicolumn{1}{l|}{\$2.26} \\ \cline{2-12} 
+\multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{11\%} & \multicolumn{1}{l|}{\$2.22} & \multicolumn{1}{l|}{\$2.22} & \multicolumn{1}{l|}{\$2.22} & \multicolumn{1}{l|}{\$2.22}                         & \multicolumn{1}{l|}{\$2.23} & \multicolumn{1}{l|}{\$2.23} & \multicolumn{1}{l|}{\$2.23} & \multicolumn{1}{l|}{\$2.23} & \multicolumn{1}{l|}{\$2.23} & \multicolumn{1}{l|}{\$2.24} \\ \cline{2-12} 
+\multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{12\%} & \multicolumn{1}{l|}{\$2.19} & \multicolumn{1}{l|}{\$2.20} & \multicolumn{1}{l|}{\$2.20} & \multicolumn{1}{l|}{\$2.20}                         & \multicolumn{1}{l|}{\$2.20} & \multicolumn{1}{l|}{\$2.20} & \multicolumn{1}{l|}{\$2.21} & \multicolumn{1}{l|}{\$2.21} & \multicolumn{1}{l|}{\$2.21} & \multicolumn{1}{l|}{\$2.21} \\ \cline{2-12} 
+\multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{13\%} & \multicolumn{1}{l|}{\$2.17} & \multicolumn{1}{l|}{\$2.17} & \multicolumn{1}{l|}{\$2.18} & \multicolumn{1}{l|}{\$2.18}                         & \multicolumn{1}{l|}{\$2.18} & \multicolumn{1}{l|}{\$2.18} & \multicolumn{1}{l|}{\$2.19} & \multicolumn{1}{l|}{\$2.19} & \multicolumn{1}{l|}{\$2.19} & \multicolumn{1}{l|}{\$2.19} \\ \cline{2-12} 
+\end{tabular}
+\caption{Sensitivity analysis of the DCF valuation method. The calculated value has been highlighted.}
+\label{tab:dcf_val}
+\end{table}
+
+Here we can conclude that the changes to the WACC is more impactful than changes to the terminal growth rate. This table can be examined in more detail in "Sheet3" of the "FINC308 PRO-FORMA STATEMENTS" appendix file.
+
+\subsection{The Multiples Method}
+
+We varied the growth rate of our EPS ratio in the range [4\%, 5\%] in steps of 0.1\%.
+The comparison firm's P/E ratio was varied in the range [9.8, 13.80] in steps of 0.4
+
+\begin{table}[h]
+\begin{tabular}{llllllllll}
+                          &                              &                             &                             & \multicolumn{3}{l}{Growth Rate of EPS}                                                                          &                             &                             &                             \\ \cline{2-10} 
+\multicolumn{1}{l|}{}     & \multicolumn{1}{l|}{}        & \multicolumn{1}{l|}{4.3\%}  & \multicolumn{1}{l|}{4.4\%}  & \multicolumn{1}{l|}{4.5\%}  & \multicolumn{1}{l|}{4.6\%}  & \multicolumn{1}{l|}{4.7\%}                          & \multicolumn{1}{l|}{4.8\%}  & \multicolumn{1}{l|}{4.9\%}  & \multicolumn{1}{l|}{5.0\%}  \\ \cline{2-10} 
+\multicolumn{1}{l|}{}     & \multicolumn{1}{l|}{9.80}    & \multicolumn{1}{l|}{1.9523} & \multicolumn{1}{l|}{1.9542} & \multicolumn{1}{l|}{1.9560} & \multicolumn{1}{l|}{1.9579} & \multicolumn{1}{l|}{1.9598}                         & \multicolumn{1}{l|}{1.9616} & \multicolumn{1}{l|}{1.9635} & \multicolumn{1}{l|}{1.9654} \\ \cline{2-10} 
+\multicolumn{1}{l|}{}     & \multicolumn{1}{l|}{10.20}   & \multicolumn{1}{l|}{2.0320} & \multicolumn{1}{l|}{2.0339} & \multicolumn{1}{l|}{2.0359} & \multicolumn{1}{l|}{2.0378} & \multicolumn{1}{l|}{2.0398}                         & \multicolumn{1}{l|}{2.0417} & \multicolumn{1}{l|}{2.0437} & \multicolumn{1}{l|}{2.0456} \\ \cline{2-10} 
+\multicolumn{1}{l|}{}     & \multicolumn{1}{l|}{10.60}   & \multicolumn{1}{l|}{2.1117} & \multicolumn{1}{l|}{2.1137} & \multicolumn{1}{l|}{2.1157} & \multicolumn{1}{l|}{2.1177} & \multicolumn{1}{l|}{2.1198}                         & \multicolumn{1}{l|}{2.1218} & \multicolumn{1}{l|}{2.1238} & \multicolumn{1}{l|}{2.1258} \\ \cline{2-10} 
+\multicolumn{1}{l|}{Comp} & \multicolumn{1}{l|}{11.00}   & \multicolumn{1}{l|}{2.1913} & \multicolumn{1}{l|}{2.1934} & \multicolumn{1}{l|}{2.1955} & \multicolumn{1}{l|}{2.1976} & \multicolumn{1}{l|}{2.1997}                         & \multicolumn{1}{l|}{2.2018} & \multicolumn{1}{l|}{2.2039} & \multicolumn{1}{l|}{2.2061} \\ \cline{2-10} 
+\multicolumn{1}{l|}{Firm} & \multicolumn{1}{l|}{11.40}   & \multicolumn{1}{l|}{2.2710} & \multicolumn{1}{l|}{2.2732} & \multicolumn{1}{l|}{2.2754} & \multicolumn{1}{l|}{2.2776} & \multicolumn{1}{l|}{2.2797}                         & \multicolumn{1}{l|}{2.2819} & \multicolumn{1}{l|}{2.2841} & \multicolumn{1}{l|}{2.2863} \\ \cline{2-10} 
+\multicolumn{1}{l|}{P/E}  & \multicolumn{1}{l|}{11.80}   & \multicolumn{1}{l|}{2.3507} & \multicolumn{1}{l|}{2.3530} & \multicolumn{1}{l|}{2.3552} & \multicolumn{1}{l|}{2.3575} & \multicolumn{1}{l|}{2.3597}                         & \multicolumn{1}{l|}{2.3620} & \multicolumn{1}{l|}{2.3642} & \multicolumn{1}{l|}{2.3665} \\ \cline{2-10} 
+\multicolumn{1}{l|}{}     & \multicolumn{1}{l|}{12.2093} & \multicolumn{1}{l|}{2.4323} & \multicolumn{1}{l|}{2.4346} & \multicolumn{1}{l|}{2.4369} & \multicolumn{1}{l|}{2.4392} & \multicolumn{1}{l|}{\cellcolor[HTML]{F8FF00}2.4416} & \multicolumn{1}{l|}{2.4439} & \multicolumn{1}{l|}{2.4462} & \multicolumn{1}{l|}{2.4486} \\ \cline{2-10} 
+\multicolumn{1}{l|}{}     & \multicolumn{1}{l|}{12.60}   & \multicolumn{1}{l|}{2.5101} & \multicolumn{1}{l|}{2.5125} & \multicolumn{1}{l|}{2.5149} & \multicolumn{1}{l|}{2.5173} & \multicolumn{1}{l|}{2.5197}                         & \multicolumn{1}{l|}{2.5221} & \multicolumn{1}{l|}{2.5245} & \multicolumn{1}{l|}{2.5269} \\ \cline{2-10} 
+\multicolumn{1}{l|}{}     & \multicolumn{1}{l|}{13.00}   & \multicolumn{1}{l|}{2.5898} & \multicolumn{1}{l|}{2.5923} & \multicolumn{1}{l|}{2.5947} & \multicolumn{1}{l|}{2.5972} & \multicolumn{1}{l|}{2.5997}                         & \multicolumn{1}{l|}{2.6022} & \multicolumn{1}{l|}{2.6047} & \multicolumn{1}{l|}{2.6072} \\ \cline{2-10} 
+\multicolumn{1}{l|}{}     & \multicolumn{1}{l|}{13.40}   & \multicolumn{1}{l|}{2.6695} & \multicolumn{1}{l|}{2.6720} & \multicolumn{1}{l|}{2.6746} & \multicolumn{1}{l|}{2.6771} & \multicolumn{1}{l|}{2.6797}                         & \multicolumn{1}{l|}{2.6823} & \multicolumn{1}{l|}{2.6848} & \multicolumn{1}{l|}{2.6874} \\ \cline{2-10} 
+\multicolumn{1}{l|}{}     & \multicolumn{1}{l|}{13.80}   & \multicolumn{1}{l|}{2.7491} & \multicolumn{1}{l|}{2.7518} & \multicolumn{1}{l|}{2.7544} & \multicolumn{1}{l|}{2.7570} & \multicolumn{1}{l|}{2.7597}                         & \multicolumn{1}{l|}{2.7623} & \multicolumn{1}{l|}{2.7650} & \multicolumn{1}{l|}{2.7676} \\ \cline{2-10} 
+\end{tabular}
+\caption{Multiples method variation. The computed value has been highlighted.}
+\label{tab:mult_val}
+\end{table}
+
+We can see that the variation in EPS growth rate has a larger impact on the final calculated price, compared to varying the growth rate of the EPS. This table can be examined in more detail in "Multiples Valuation Sensitivity" in the "FINC308 PRO-FORMA STATEMENTS" appendix file.
+
+\newpage
+\subsection{The APV method}
+
+\begin{table}[h]
+\begin{tabular}{lllllll}
+                          &                             &                                      & \multicolumn{2}{l}{Return on Equity}                                                                &                                      &                                      \\ \cline{2-7} 
+\multicolumn{1}{l|}{}     & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{7.50\%}          & \multicolumn{1}{l|}{8.50\%}          & \multicolumn{1}{l|}{9.50\%}                                  & \multicolumn{1}{l|}{10.50\%}         & \multicolumn{1}{l|}{11.50\%}         \\ \cline{2-7} 
+\multicolumn{1}{l|}{}     & \multicolumn{1}{l|}{2.60\%} & \multicolumn{1}{l|}{\textbf{\$1.98}} & \multicolumn{1}{l|}{\textbf{\$1.89}} & \multicolumn{1}{l|}{\textbf{\$1.80}}                         & \multicolumn{1}{l|}{\textbf{\$1.69}} & \multicolumn{1}{l|}{\textbf{\$1.58}} \\ \cline{2-7} 
+\multicolumn{1}{l|}{Cost} & \multicolumn{1}{l|}{3.60\%} & \multicolumn{1}{l|}{\textbf{\$2.00}} & \multicolumn{1}{l|}{\textbf{\$1.90}} & \multicolumn{1}{l|}{\textbf{\$1.81}}                         & \multicolumn{1}{l|}{\textbf{\$1.70}} & \multicolumn{1}{l|}{\textbf{\$1.59}} \\ \cline{2-7} 
+\multicolumn{1}{l|}{of}   & \multicolumn{1}{l|}{4.60\%} & \multicolumn{1}{l|}{\textbf{\$2.03}} & \multicolumn{1}{l|}{\textbf{\$1.91}} & \multicolumn{1}{l|}{\cellcolor[HTML]{F8FF00}\textbf{\$1.82}} & \multicolumn{1}{l|}{\textbf{\$1.73}} & \multicolumn{1}{l|}{\textbf{\$1.61}} \\ \cline{2-7} 
+\multicolumn{1}{l|}{Debt} & \multicolumn{1}{l|}{5.60\%} & \multicolumn{1}{l|}{\textbf{\$2.04}} & \multicolumn{1}{l|}{\textbf{\$1.92}} & \multicolumn{1}{l|}{\textbf{\$1.82}}                         & \multicolumn{1}{l|}{\textbf{\$1.75}} & \multicolumn{1}{l|}{\textbf{\$1.63}} \\ \cline{2-7} 
+\multicolumn{1}{l|}{}     & \multicolumn{1}{l|}{6.60\%} & \multicolumn{1}{l|}{\textbf{\$2.04}} & \multicolumn{1}{l|}{\textbf{\$1.94}} & \multicolumn{1}{l|}{\textbf{\$1.83}}                         & \multicolumn{1}{l|}{\textbf{\$1.76}} & \multicolumn{1}{l|}{\textbf{\$1.63}} \\ \cline{2-7} 
+\end{tabular}
+\caption{APV method variation. The computed value has been highlighted.}
+\label{tab:apv_val}
+\end{table}
+
+From conducting a sensitivity analysis by altering both the cost of debt and Return on Equity, it is apparent the fair value of Scales Corporation's share price is a lot more sensitive to changes in the ROE than it is to changes in the Cost of debt. \\
+
+This makes sense as the cashflows discounted using the ROE are significantly higher than the ones the Cost of debt uses to discount. The Cost of Debt discounts the Interest tax shield cashflows, which is a fraction of the size of the Unlevered cash flows discounted using the ROE. \\
+
+From the table we can see that the share price has a range between \$1.58 and \$2.04, with an average price of \$1.82. This table can be examined in more detail in "APV Valuation Sensitivity" in the "FINC308 PRO-FORMA STATEMENTS" appendix file.
+
+
+\section{Conclusions and Judgment}
+Following the COVID-19 pandemic, the pet food ingredients sector experienced large growth for Scales, expanding from 36\% to 42\%. 
+Choosing a diversification strategy to minimising losses during the pandemic benefited shareholders, as it resulted in variability in sector growth, allowing for the opportunity of pet food ingredient expansion observed. However in this analysis it was concluded that this growth is temporary, reflected most directly in the NPV valuation method in the Cash Flow section.\\
+
+From all of our separate valuation methods, we calculated intrinsic values of the stock price as lower than its current value:
+\begin{itemize}
+    \item FCF method: $\$2.40$
+    \item Comparable Firm Multiple method: $\$2.44$
+    \item APV method: $\$1.82$
+\end{itemize}
+
+The current share price of Scales corp, at the time of writing, is \$4.98. From the outcomes of our valuation models, as well as the economic uncertainty generated by current and projected inflation rates, as well as the major export location of Scales being to North America when the NZD is at an all-time low to the USD, we conclude that Scales is currently \textbf{overvalued}.\\
+
+Scales is a long-standing and long-operating company in the agribusiness sector, but the recent growth examined in this valuation is expected to be temporary, with our belief being that current market risks, which also include supply chain constraints as well as agri-sector labour shortages, dominate short term sector growth in this overall valuation. \\
+
+Resulting from this analysis, investors are recommended to either take a \underline{\textbf{short}} or \underline{\textbf{sell}} position.
+
+
+
+\newpage
+\bibliographystyle{alpha}
+\bibliography{sample}
+
+\end{document}
