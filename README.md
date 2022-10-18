@@ -25,3 +25,5 @@ Tom Morris:
 - Pro Forma Income/Balance sheet
 
 The excel file mentioned in the report can be found in this repository.
+
+_Please note that this project is purely a technical analysis and an exercise on the part of its authors. This does not constitute financial advice._
